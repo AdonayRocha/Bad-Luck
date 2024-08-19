@@ -23,6 +23,8 @@ while True:
             print("O número deve estar entre 1 e 100.")
     except ValueError:
         print("Erro: Entrada inválida.")
+    except:
+        print("Erro não mapeado.")
     finally:
         print("-------")
         quantidadeTeste += 1
