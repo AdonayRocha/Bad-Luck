@@ -3,7 +3,6 @@ from datetime import date
 import random
 
 quantidadeTeste = 0
-quantidadeTeste = 0
 
 #Define o número da sorte
 numeroSorte = random.uniform(1, 100)
